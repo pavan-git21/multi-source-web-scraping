@@ -20,7 +20,7 @@ CSV + JSON Reports
 
 ## Tech Stack
 
-* Python 3.10+
+* Python
 * Requests
 * BeautifulSoup4
 * Pytest
