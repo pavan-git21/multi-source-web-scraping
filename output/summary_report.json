@@ -1,0 +1,69 @@
+{
+  "started_at_utc": "2026-10-06T15:18:49+00:00",
+  "execution_time_seconds": 333.09,
+  "dedupe_mode": "remove",
+  "totals": {
+    "records_collected": 1100,
+    "records_after_cleaning": 1100,
+    "rejected_in_validation": 0,
+    "duplicates_detected": 1,
+    "duplicates_removed": 1,
+    "duplicates_flagged": 0,
+    "final_record_count": 1099
+  },
+  "rejection_reasons": {},
+  "by_source": {
+    "Books to Scrape": {
+      "pages_scraped": 50,
+      "failed_pages": [],
+      "failed_detail_pages": 0,
+      "parse_errors": 0,
+      "fatal_error": null,
+      "records_collected": 1000,
+      "records_after_cleaning": 1000,
+      "rejected_in_validation": 0,
+      "duplicates_detected": 1,
+      "final_records": 999
+    },
+    "Quotes to Scrape": {
+      "pages_scraped": 10,
+      "failed_pages": [],
+      "failed_detail_pages": 0,
+      "parse_errors": 0,
+      "fatal_error": null,
+      "records_collected": 100,
+      "records_after_cleaning": 100,
+      "rejected_in_validation": 0,
+      "duplicates_detected": 0,
+      "final_records": 100
+    }
+  },
+  "missing_values_in_final_dataset": {
+    "Books to Scrape": {
+      "source": 0,
+      "source_url": 0,
+      "name_or_title": 0,
+      "category": 0,
+      "price": 0,
+      "rating": 0,
+      "author": 999,
+      "tags": 999,
+      "description": 2,
+      "availability": 0,
+      "scraped_at": 0
+    },
+    "Quotes to Scrape": {
+      "source": 0,
+      "source_url": 0,
+      "name_or_title": 0,
+      "category": 100,
+      "price": 100,
+      "rating": 100,
+      "author": 0,
+      "tags": 3,
+      "description": 100,
+      "availability": 100,
+      "scraped_at": 0
+    }
+  }
+}
